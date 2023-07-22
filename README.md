@@ -1,5 +1,5 @@
 # Getting Started with Create React App
-
+deployment link: https://scintillating-cocada-fa1962.netlify.app/
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
