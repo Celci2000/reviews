@@ -1,38 +1,164 @@
-.App {
-  text-align: center;
+body{
+    background-color: #EA4C89;
+}
+.App{
+    display :flex;
+  
+    margin:10px;
+   justify-content: center;
+   align-items: center;
+   
+ 
+
+}
+.main{
+    border:5px solid ;
+    box-sizing: border-box;
+    background-color:pink;
+    overflow-y: hidden; /* Hide vertical scrollbar */
+    overflow-x: hidden;
+    width :700px;
+    height: 400px;
+    box-shadow: 5px 10px purple;
+    border-radius: 25px;
+    padding-bottom :43%;
+   
+    text-align :center;
+
+   
+}
+.name{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-transform: capitalize;
+    font-weight:500;
+    font-size:18px;
+}
+.job{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-transform: capitalize;
+}
+.info{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /* text-transform: capitalize; */
+}
+.image{
+     
+height: 140px;   max-width: 90%;
+background-repeat: no-repeat;
+border:8px solid purple;
+border-radius:30%;
+
+background-size: contain;
+box-shadow: 4px black;
+margin-top:10px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+.prevEle{
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+   
+    
+    /* CSS */
+          background-color: #EA4C89;
+      border-radius: 8px;
+      border-style: none;
+      box-sizing: border-box;
+      color: #FFFFFF;
+      cursor: pointer;
+      display: inline-block;
+      font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      font-weight: 500;
+      height: 40px;
+      line-height: 20px;
+      list-style: none;
+      margin: 0;
+      outline: none;
+      padding: 10px 16px;
+      position: relative;
+      text-align: center;
+      text-decoration: none;
+      transition: color 100ms;
+      vertical-align: baseline;
+      user-select: none;
+      -webkit-user-select: none;
+      touch-action: manipulation;
 }
+    
+    .prevEle:hover,
+    .prevEle:focus {
+      background-color: #F082AC;
+    }
+    .nextEle{
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+   
+    
+        /* CSS */
+              background-color: #EA4C89;
+          border-radius: 8px;
+          border-style: none;
+          box-sizing: border-box;
+          color: #FFFFFF;
+          cursor: pointer;
+          display: inline-block;
+          font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+          font-size: 14px;
+          font-weight: 500;
+          height: 40px;
+          line-height: 20px;
+          list-style: none;
+          margin: 0;
+          outline: none;
+          padding: 10px 16px;
+          position: relative;
+          text-align: center;
+          text-decoration: none;
+          transition: color 100ms;
+          vertical-align: baseline;
+          user-select: none;
+          -webkit-user-select: none;
+          touch-action: manipulation;
+    }
+        
+        .nextEle:hover,
+        .nextEle:focus {
+          background-color: #F082AC;
+        }
+    
+        .btn{
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+   
+    
+            /* CSS */
+                  background-color: #EA4C89;
+              border-radius: 8px;
+              border-style: none;
+              box-sizing: border-box;
+              color: #FFFFFF;
+              cursor: pointer;
+              display: inline-block;
+              font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+              font-size: 14px;
+              font-weight: 500;
+              height: 40px;
+              line-height: 20px;
+              list-style: none;
+              margin: 0;
+              outline: none;
+              padding: 10px 16px;
+              margin-top: 10px;
+              
+              position: relative;
+              text-align: center;
+              text-decoration: none;
+              transition: color 100ms;
+              vertical-align: baseline;
+              user-select: none;
+              -webkit-user-select: none;
+              touch-action: manipulation;
+        }
+            
+            .btn:hover,
+            .btn:focus {
+              background-color: #F082AC;
+            }
+    
